@@ -1,0 +1,31 @@
+Problema:
+
+
+Una Compañía pretende construir un edificio de tres pisos, la compañía desea que usted cree un programa para controlar el ascensor del edificio.
+
+El ascensor tendrá capacidad solo para una persona ya que esta diseñado para ahorrar energía, así que solo se moverá cuando sea necesario. El ascensor 
+al comenzar el día espera con su puerta cerrada en el primer piso del edificio, desde luego, el ascensor alterna direcciones: Primero sube y después baja.
+
+El programa debe tener una función para “Crear persona”, cuando se invoque a esta función, el programa deberá crear una persona y colocarla en un piso. El 
+piso en el que aparecerá la persona se determinara aleatoriamente. A continuación, la persona deberá oprimir el botón de llamada del piso. El piso de destino 
+de la persona nunca es igual al piso en el que se crea esa persona. 
+
+Si la primera persona del día aparece en el piso 1, puede subirse de inmediato al ascensor (después de presionar el botón de llamada). Si la primera persona 
+aparece en el piso 2, el elevador deberá dirigirse al piso 2 y recoger a la persona. El ascensor siempre sabe en que piso esta y cual es su piso de destino.
+
+
+3 PISOS
+
+REQUERIMIENTOS  - ASCENSOR - PERSONA
+
+- El ascensor debe empezar en el primer piso -> Puerta cerrada
+- Validar puerta abierta y cerrada
+- Crear persona
+- Sólo ingrese al ascensor una persona -> 'Si hay más el ascensor no se moverá
+- Ascensor alterna direcciones : Primero sube, luego baja
+- El piso del destino de la persona nunca es igual al piso en el que se encuentra
+- Verificar que el ascensor llegó al piso destino de la persona
+- Movimiento del ascensor y si está la persona
+- Trayecto completo del ascensor
+
+
