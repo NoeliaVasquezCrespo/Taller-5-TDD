@@ -21,7 +21,7 @@ public class AscensorTest {
     @Test
     public void verificarPuertasCerradasYPisoInicio() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
 
         // 2. Lógica de la prueba.
         boolean estadoInicial = ascensor.verificarEstadoInicial();
@@ -33,7 +33,7 @@ public class AscensorTest {
     @Test
     public void verificarPuertaCerrada() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
         Persona persona = ascensor.crearPersona();
 
         // 2. Lógica de la prueba
@@ -46,7 +46,7 @@ public class AscensorTest {
     @Test
     public void crearPersonaEnPisoYDestino() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
 
         // 2. Lógica de la prueba
         Persona persona = ascensor.crearPersona();
@@ -58,7 +58,7 @@ public class AscensorTest {
     @Test
     public void verificarCantidadPersonasException() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
 
         // 2. Lógica de la prueba
     
@@ -69,7 +69,7 @@ public class AscensorTest {
     @Test
     public void verificarEstadoMovimientoAscensor() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
 
         // 2. Lógica de la prueba
         boolean estadoSubidaBajada = ascensor.movAscensor();
@@ -81,7 +81,7 @@ public class AscensorTest {
     @Test
     public void verificarPisoInicioYPisoDestino() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
 
         // 2. Lógica de la prueba
         Persona persona = ascensor.crearPersona();
@@ -93,7 +93,7 @@ public class AscensorTest {
     @Test
     public void verificarPisoDestinoPersonaAscensor() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
         Persona persona = ascensor.crearPersona();
 
         // 2. Lógica de la prueba
@@ -107,7 +107,7 @@ public class AscensorTest {
     @Test
     public void verificarEstadoMovimientoYPersona() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
         Persona persona = ascensor.crearPersona();
 
         // 2. Lógica de la prueba
@@ -121,7 +121,7 @@ public class AscensorTest {
     @Test
     public void trayectoFinalDelAscensor() throws Exception{
         // 1. Preparación de la prueba
-        ascensor = new Ascensor();
+        System.out.println("------------------------------- "+ascensor);
         Persona persona = ascensor.crearPersona();
         
         // 2. Lógica de la prueba
